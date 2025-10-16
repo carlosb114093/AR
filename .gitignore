@@ -1,0 +1,27 @@
+# Caches
+Library/
+Temp/
+Obj/
+Builds/
+UserSettings/
+
+# Logs
+*.log
+
+# Visual Studio / Rider / IDE
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.apk
+
+# Mac OS X
+.DS_Store
+.Trashes
+# Editor Settings (local to user)
+/EditorSettings/

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark
+      Detection.unity
+    guid: 98d49dcfe667ea822a91d6b74f7cb2e9
+  - enabled: 1
+    path: Assets/MediaPipeUnity/Samples/Scenes/Face Detection/Face Detection.unity
+    guid: 6398790df6f5f3123a3d09434706eb95
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e9754579163e2cd49937bc9945b24517, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: b4c2508584878cc4caa96bea74d7c4c2, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b202565a351f63544b30875b0ca6f9cf, type: 2}
