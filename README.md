@@ -1,10 +1,8 @@
-# 🖐️ AR Hand Tracking - MediaPipe Unity Plugin (Android)
-
 Este proyecto implementa **detección de manos en tiempo real (Hand Landmark Detection)** usando **MediaPipe** en **Unity 2022.3.62f2 LTS**, dirigido a **dispositivos Android compatibles con ARCore**.
 
 ---
 
-## ⚙️ Requisitos del sistema
+## Requisitos del sistema
 
 | Componente | Versión recomendada |
 |-------------|--------------------|
@@ -16,7 +14,7 @@ Este proyecto implementa **detección de manos en tiempo real (Hand Landmark Det
 
 ---
 
-## 🧩 Dependencias principales (Unity Package Manager)
+## Dependencias principales (Unity Package Manager)
 
 Instala desde **Window → Package Manager** los siguientes paquetes:
 
@@ -27,15 +25,15 @@ Instala desde **Window → Package Manager** los siguientes paquetes:
 | **XR Interaction Toolkit (opcional)** | Interacciones táctiles o con gestos. |
 | **Input System (1.7.0 o superior)** | Lectura avanzada de gestos y entradas. |
 
-> ⚠️ Si usas `Input System`, desactiva `Both` en *Project Settings → Player → Active Input Handling* y selecciona solo **Input System Package**.
+>  Si usas `Input System`, desactiva `Both` en *Project Settings → Player → Active Input Handling* y selecciona solo **Input System Package**.
 
 ---
 
-## 📦 Plugin principal
+##  Plugin principal
 
-### 🧠 MediaPipe Unity Plugin
+###  MediaPipe Unity Plugin
 Descarga el paquete desde:
-👉 [https://github.com/homuler/MediaPipeUnityPlugin/releases](https://github.com/homuler/MediaPipeUnityPlugin/releases)
+[https://github.com/homuler/MediaPipeUnityPlugin/releases](https://github.com/homuler/MediaPipeUnityPlugin/releases)
 
 Archivos recomendados:
 - `MediaPipeUnityPlugin-all.zip` → Incluye todos los modelos y bibliotecas necesarias.
@@ -46,7 +44,7 @@ Descomprime y copia la carpeta `MediaPipeUnityPlugin` dentro de `Assets/`.
 
 ---
 
-## 🧰 Configuración del entorno Android
+## Configuración del entorno Android
 
 1. **Instalar SDK, NDK y JDK** (Unity Hub → Installs → Add Modules → Android Build Support)  
    Incluye:
@@ -59,14 +57,14 @@ Descomprime y copia la carpeta `MediaPipeUnityPlugin` dentro de `Assets/`.
 3. **Player Settings → Other Settings**
    - **Scripting Backend:** `IL2CPP`
    - **Target Architectures:** `ARM64`
-   - **Graphics APIs:** Solo `OpenGLES3` (❌ desactiva Vulkan)
+   - **Graphics APIs:** Solo `OpenGLES3` (desactiva Vulkan)
    - **Minimum API Level:** Android 8.0 (API 26)
    - **Camera Usage Description:**  
      > “Se requiere acceso a la cámara para detección de manos en realidad aumentada.”
 
 ---
 
-## 📸 Permisos
+##  Permisos
 
 Asegúrate de incluir permisos de cámara para Android.  
 Si el permiso no se solicita automáticamente, agrega este script a un `GameObject` vacío:
